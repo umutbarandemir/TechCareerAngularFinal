@@ -15,15 +15,15 @@ export class MainComponent {
 
   bootcampCard:BootcampCard[] = [
     {
-      id:1,icon:"fa fa-quote-right",title:"Week1 - HTML&CSS&JS",description:"",photo:"",sub_title:"Html&Css&Js ",githublink:"https://github.com/umutbarandemir/Bootcamp-Login-Register",
+      id:1,icon:"fa fa-quote-right",title:"Week1 - HTML&CSS&JS",description:"To start the bootcamp we went over the html,css and bootstrap basics while creating login form with all the neccesary attributes. We got assigend to do a login/register form of our own.",photo:"../../uploads/htmlcssjs.png",sub_title:"Html&Css&Js ",githublink:"https://github.com/umutbarandemir/Bootcamp-Login-Register",
     },{
-      id:2,icon:"fa fa-quote-left",title:"Week2 - JS&TS",description:"",photo:"",sub_title:"JS&Typescript ",githublink:"https://github.com/umutbarandemir/TypeScript",
+      id:2,icon:"fa fa-quote-left",title:"Week2 - JS&TS",description:"During week2 we went over the javascript essentials and later on started learning typescript. Without skipping a subject we learned all the topics of typescript then touched on npm installs.",photo:"../../uploads/typescript.png",sub_title:"JS&Typescript ",githublink:"https://github.com/umutbarandemir/TypeScript",
     },{
-      id:3,icon:"fa fa-quote-right",title:"Week3 - AngularSetup&Components",description:"",photo:"",sub_title:"ANGULAR ",githublink:"https://github.com/umutbarandemir/angular-onepage-fromzero",
+      id:3,icon:"fa fa-quote-right",title:"Week3 - AngularSetup&Components",description:"With the start of week3 we set our first angular app. Covered the basics of angular, learned how to set angular projects and coding environment. Learned about the component based coding of angular.",photo:"../../uploads/angular.png",sub_title:"ANGULAR ",githublink:"https://github.com/umutbarandemir/angular-onepage-fromzero",
     },{
-      id:4,icon:"fa fa-quote-left",title:"Week4 - AngularOnePage",description:"",photo:"",sub_title:"ANGULAR ",githublink:"https://github.com/umutbarandemir/angular-onepage-fromzero",
+      id:4,icon:"fa fa-quote-left",title:"Week4 - AngularOnePage",description:"We went into more details on angular and started a small one page application. Picked up a template for my portfolio page and started adjusting the template according to the end result i want.",photo:"../../uploads/angular.png",sub_title:"ANGULAR ",githublink:"https://github.com/umutbarandemir/angular-onepage-fromzero",
     },{
-      id:5,icon:"fa fa-quote-right",title:"Week5 - More Angular",description:"",photo:"",sub_title:"ANGULAR&Node.js ",githublink:"https://github.com/umutbarandemir/angular-onepage-fromzero",
+      id:5,icon:"fa fa-quote-right",title:"Week5 - More Angular",description:"Learned about more complex ideas such as pipelines, rxjs, nodejs, mongodb, json and services. For the final deliverable of the bootcamp finished the design and content of the website and started the conversion of javascript to angular.",photo:"../../uploads/angular.png",sub_title:"ANGULAR&Node.js ",githublink:"https://github.com/umutbarandemir/angular-onepage-fromzero",
     }
   ];
 
@@ -62,37 +62,37 @@ export class MainComponent {
 
   languagesCard:LanguagesCard[] = [
     {
-      id:1,photo:"",filter:"gal_a",
+      id:1,photo:"../../uploads/react.png",filter:"gal_a",
     },
     {
-      id:2,photo:"",filter:"gal_a",
+      id:2,photo:"../../uploads/angular.png",filter:"gal_a",
     },
     {
-      id:3,photo:"",filter:"gal_a",
+      id:3,photo:"../../uploads/htmlcssjs.png",filter:"gal_a",
     },
     {
-      id:4,photo:"",filter:"gal_b",
+      id:4,photo:"../../uploads/nodejs.png",filter:"gal_b",
     },
     {
-      id:5,photo:"",filter:"gal_a gal_b",
+      id:5,photo:"../../uploads/java.png",filter:"gal_a gal_b",
     },
     {
-      id:6,photo:"",filter:"gal_b",
+      id:6,photo:"../../uploads/php.png",filter:"gal_b",
     },
     {
-      id:7,photo:"",filter:"gal_b",
+      id:7,photo:"../../uploads/springboot.png",filter:"gal_b",
     },
     {
-      id:8,photo:"",filter:"gal_c",
+      id:8,photo:"../../uploads/mysql.jpg",filter:"gal_c",
     },
     {
-      id:9,photo:"",filter:"gal_c",
+      id:9,photo:"../../uploads/oraclesql.png",filter:"gal_c",
     },
     {
-      id:10,photo:"",filter:"gal_c",
+      id:10,photo:"../../uploads/mongodb.png",filter:"gal_c",
     },
     {
-      id:11,photo:"",filter:"gal_a gal_b",
+      id:11,photo:"../../uploads/python.png",filter:"gal_a gal_b",
     },
   ];
 

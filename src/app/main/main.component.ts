@@ -3,11 +3,12 @@ import { Component } from '@angular/core';
 import { BootcampCard } from './bootcampCard';
 import { EducationCard } from './educationCard';
 import { LanguagesCard } from './languagesCard';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-main',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './main.component.html',
   styleUrl: './main.component.css'
 })

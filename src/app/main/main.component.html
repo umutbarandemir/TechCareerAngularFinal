@@ -21,7 +21,7 @@
 
             <div class="col-md-6">
                 <div class="right-box-pro wow fadeIn">
-                    <img src="../../uploads/me.jpg" alt="" class="img-fluid img-rounded">
+                    <img src="../../assets/me.jpg" alt="" class="img-fluid img-rounded">
                 </div><!-- end media -->
             </div><!-- end col -->
         </div><!-- end row -->
@@ -72,7 +72,7 @@
         
         <div class="gallery-list row">
             <div class="col-md-4 col-sm-6 gallery-grid" *ngFor="let card of languagesCard">
-              <div class="gallery-single fix" [ngClass]="card.filter.split(' ')" *ngIf="isImageVisible(card.filter)">
+              <div class="gallery-single fix" [ngClass]="card.filter.split(' ')" *ngIf="isImageVisible(card)">
                 <img [src]="card.photo" class="img-fluid" alt="Image">
                 <div class="img-overlay">
                   <a [href]="card.photo" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius">

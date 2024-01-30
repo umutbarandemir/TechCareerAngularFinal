@@ -55,7 +55,7 @@ export class MainComponent implements OnInit{
     },{
       id:2,icon:"fa-solid fa-graduation-cap",title:"College",location:"Istanbul Aydin University, KUCUKCEKMECE / ISTANBUL , ",date:"2019-2023",description:"Building a solid foundation that includes software basics, algorithms and building projects in variety of languages. Tapping into the limitless potential of software world.",description2:"",buttonId:"collegeBtn",pdfPath: "../../assets/ünibelge.pdf",
     },{
-      id:3,icon:"fa-solid fa-user-tie",title:"Internships",location:"Remote , ",date:"SUMMER 2023",description:"Kreatif Fabrika, August 2024",description2:"To finish my college journey i did 28 days of intership in this firm. I learned and used PHP Laravel along with the html,css and javascript.",buttonId:"internshipBtn",pdfPath: "../../assets/ünibelge.pdf",
+      id:3,icon:"fa-solid fa-user-tie",title:"Internship",location:"Remote , ",date:"SUMMER 2023",description:"Kreatif Fabrika, August 2024",description2:"To finish my college journey i did 28 days of intership in this firm. I learned and used PHP Laravel along with the html,css and javascript.",buttonId:"internshipBtn",pdfPath: "../../assets/ünibelge.pdf",
     },{
       id:4,icon:"fa-solid fa-laptop-code",title:"After College",location:"Remote , ",date:"FALL 2023",description:"After completing my internships and graduation i got an offer from TUBITAK BILGEM YTE BOOTCAMP 2023 to attend their online bootcamp that had subjects such as Java, Figma, Springboot. Completing these courses and doing some freelance jobs brought me to end of 2023.",description2:"",buttonId:"afterCollegeBtn",pdfPath: "../../assets/tubitak.pdf",
     },
@@ -108,12 +108,12 @@ export class MainComponent implements OnInit{
     this.filterImages();
   }
 
-  filterImages(filter: string = '*') {
-    this.selectedFilter = filter;
+  filterImages(filter: string = '*'):void {
+    this.selectedFilter = filter.trim();
   }
 
-  isImageVisible(filter: string): boolean {
-    return this.selectedFilter === '*' || this.selectedFilter === filter;
+  isImageVisible(card: LanguagesCard): boolean {
+    return this.selectedFilter === '*' || this.selectedFilter === card.filter.trim();
   }
 
 

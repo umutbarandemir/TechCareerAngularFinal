@@ -45,7 +45,7 @@ export class MainComponent implements OnInit{
       id:5,icon:"fa-solid fa-gear",title:"TetrisBot in Python",description:"Utilized python basics and pygame library to create a python game then implemented a bot to play it without using advanced python libraries.",githublink:"https://github.com/umutbarandemir/tetris_bot",
     },
     { 
-      id:6,icon:"fa-solid fa-star",title:"MovieRecomendation System with ML",description:"A movie recommendation system that uses K-NN algorithm to find similarities between user activities and suggests movies to users based on similar users.",githublink:"https://github.com/umutbarandemir/MovieRec",
+      id:6,icon:"fa-solid fa-star",title:"Movie Recomendation System with ML",description:"A movie recommendation system that uses K-NN algorithm to find similarities between user activities and suggests movies to users based on similar users.",githublink:"https://github.com/umutbarandemir/MovieRec",
     },
   ];
   

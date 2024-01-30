@@ -67,37 +67,37 @@ export class MainComponent implements OnInit{
 
   languagesCard:LanguagesCard[] = [
     {
-      id:1,photo:"../../uploads/react.png",filter:"gal_a",
+      id:1,photo:"../../assets/angular.png",filter:"gal_a",
     },
     {
-      id:2,photo:"../../uploads/angular.png",filter:"gal_a",
+      id:2,photo:"../../assets/react.png",filter:"gal_a",
     },
     {
-      id:3,photo:"../../uploads/htmlcssjs.png",filter:"gal_a",
+      id:3,photo:"../../assets/htmlcssjs.png",filter:"gal_a",
     },
     {
-      id:4,photo:"../../uploads/nodejs.png",filter:"gal_b",
+      id:4,photo:"../../assets/nodejs.png",filter:"gal_b",
     },
     {
-      id:5,photo:"../../uploads/java.png",filter:"gal_a gal_b",
+      id:5,photo:"../../assets/java.png",filter:"gal_b",
     },
     {
-      id:6,photo:"../../uploads/php.png",filter:"gal_b",
+      id:6,photo:"../../assets/php.png",filter:"gal_b",
     },
     {
-      id:7,photo:"../../uploads/springboot.png",filter:"gal_b",
+      id:7,photo:"../../assets/springboot.png",filter:"gal_b",
     },
     {
-      id:8,photo:"../../uploads/mysql.jpg",filter:"gal_c",
+      id:8,photo:"../../assets/mysql.jpg",filter:"gal_c",
     },
     {
-      id:9,photo:"../../uploads/oraclesql.png",filter:"gal_c",
+      id:9,photo:"../../assets/oraclesql.png",filter:"gal_c",
     },
     {
-      id:10,photo:"../../uploads/mongodb.png",filter:"gal_c",
+      id:10,photo:"../../assets/mongodb.png",filter:"gal_c",
     },
     {
-      id:11,photo:"../../uploads/python.png",filter:"gal_a gal_b",
+      id:11,photo:"../../assets/python.png",filter:"gal_a",
     },
   ];
 

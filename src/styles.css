@@ -671,7 +671,11 @@ xclip
 }
 
 .services-inner-box{
-    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 	padding: 15px;
 	background: #ffffff;
 	margin-bottom: 30px;
@@ -683,7 +687,6 @@ xclip
 
 .services-inner-box button{
     border-radius: 10px;
-    margin-left: 200px;
     background-color: transparent;
 }
 
@@ -695,9 +698,6 @@ xclip
 .ser-icon{
 	width: 100px;
 	height: 100px;
-	text-align: center;
-	line-height: 90px;
-    margin-left: -10px;
     
 }
 .ser-icon i{

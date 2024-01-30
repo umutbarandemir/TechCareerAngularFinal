@@ -51,15 +51,18 @@ export class MainComponent implements OnInit{
 
   educationCard:EducationCard[] = [
     {
-      id:1,icon:"flaticon-seo",title:"High School",location:"Tülay Basaran Anadolu Lisesi, SAMSUN / ILKADIM , ",date:"2015-2019",description:"Root of the love and the passion i have for the software world and the constant hunger to learn resides on the growth i had during these years.",description2:"",
+      id:1,icon:"flaticon-seo",title:"High School",location:"Tülay Basaran Anadolu Lisesi, SAMSUN / ILKADIM , ",date:"2015-2019",description:"Root of the love and the passion i have for the software world and the constant hunger to learn resides on the growth i had during these years.",description2:"",buttonId:"highSchoolBtn",pdfPath: "../../pdfs/lisebelgesi.pdf",
     },{
-      id:2,icon:"flaticon-development",title:"College",location:"Istanbul Aydin University, KUCUKCEKMECE / ISTANBUL , ",date:"2019-2023",description:"Building a solid foundation that includes software basics, algorithms and building projects in variety of languages. Tapping into the limitless potential of software world.",description2:"",
+      id:2,icon:"flaticon-development",title:"College",location:"Istanbul Aydin University, KUCUKCEKMECE / ISTANBUL , ",date:"2019-2023",description:"Building a solid foundation that includes software basics, algorithms and building projects in variety of languages. Tapping into the limitless potential of software world.",description2:"",buttonId:"collegeBtn",pdfPath: "../../pdfs/ünibelge.pdf",
     },{
-      id:3,icon:"flaticon-process",title:"Internships",location:"Remote , ",date:"SUMMER 2023",description:"Kreatif Fabrika, August 2024",description2:"To finish my college journey i did 28 days of intership in this firm. I learned and used PHP Laravel along with the html,css and javascript.",
+      id:3,icon:"flaticon-process",title:"Internships",location:"Remote , ",date:"SUMMER 2023",description:"Kreatif Fabrika, August 2024",description2:"To finish my college journey i did 28 days of intership in this firm. I learned and used PHP Laravel along with the html,css and javascript.",buttonId:"internshipBtn",pdfPath: "../../pdfs/tubitak.pdf",
     },{
-      id:4,icon:"flaticon-process",title:"After College",location:"Remote , ",date:"FALL 2023",description:"After completing my internships and graduation i got an offer from TUBITAK BILGEM YTE BOOTCAMP 2023 to attend their online bootcamp that had subjects such as Java, Figma, Springboot. Completing these courses and doing some freelance jobs brought me to end of 2023.",description2:"To start the 2024, I have been taking an Angular Frontend Bootcamp via TechCareer.",
+      id:4,icon:"flaticon-process",title:"After College",location:"Remote , ",date:"FALL 2023",description:"After completing my internships and graduation i got an offer from TUBITAK BILGEM YTE BOOTCAMP 2023 to attend their online bootcamp that had subjects such as Java, Figma, Springboot. Completing these courses and doing some freelance jobs brought me to end of 2023.",description2:"To start the 2024, I have been taking an Angular Frontend Bootcamp via TechCareer.",buttonId:"afterCollegeBtn",pdfPath: "../../pdfs/tubitak.pdf",
     },
   ];
+  viewPdf(pdfPath: string) {
+    window.open(pdfPath, '_blank');
+  }
 
   languagesCard:LanguagesCard[] = [
     {
@@ -96,10 +99,6 @@ export class MainComponent implements OnInit{
       id:11,photo:"../../uploads/python.png",filter:"gal_a gal_b",
     },
   ];
-
-  viewPdfButton(){
-
-  }
 
   //FILTERING
   selectedFilter = '*'; // Default filter is 'All'

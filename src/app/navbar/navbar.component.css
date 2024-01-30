@@ -52,4 +52,9 @@
 #mainNav img{
     max-width: 250px;
 }
+
+#mainNav{
+    background-color: black;
+    opacity: 0.5;
+}
   

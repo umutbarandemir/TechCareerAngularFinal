@@ -1,5 +1,5 @@
 import { ProjectsCard } from './projectsCard';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { BootcampCard } from './bootcampCard';
 import { EducationCard } from './educationCard';
 import { LanguagesCard } from './languagesCard';
@@ -12,7 +12,7 @@ import { CommonModule } from '@angular/common';
   templateUrl: './main.component.html',
   styleUrl: './main.component.css'
 })
-export class MainComponent {
+export class MainComponent implements OnInit{
 
   bootcampCard:BootcampCard[] = [
     {
@@ -100,5 +100,21 @@ export class MainComponent {
   viewPdfButton(){
 
   }
+
+  //FILTERING
+  selectedFilter = '*'; // Default filter is 'All'
+
+  ngOnInit() {
+    this.filterImages();
+  }
+
+  filterImages(filter: string = '*') {
+    this.selectedFilter = filter;
+  }
+
+  isImageVisible(filter: string): boolean {
+    return this.selectedFilter === '*' || this.selectedFilter === filter;
+  }
+
 
 }

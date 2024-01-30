@@ -163,3 +163,8 @@ ul, li, ol{
 	padding: 0px;
 }
 
+body.demos .container-fluid {
+    max-width: 1080px
+}
+
+

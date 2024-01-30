@@ -61,14 +61,14 @@
         
         <div class="gallery-menu row">
             <div class="col-md-12">
-                <div class="button-group filter-button-group text-left">
-                    <button class="active" (click)="filterImages('*')">All</button>
-                    <button (click)="filterImages('gal_a')">FRONTEND</button> <!--FRONTEND-->
-                    <button (click)="filterImages('gal_b')">BACKEND</button> <!--BACKEND-->
-                    <button (click)="filterImages('gal_c')">DATABASE</button> <!--DATABASES-->
-                </div>
+              <div class="button-group filter-button-group text-left">
+                <button [class.active]="selectedFilter === '*'" (click)="filterImages('*')">All</button>
+                <button [class.active]="selectedFilter === 'gal_a'" (click)="filterImages('gal_a')">FRONTEND</button>
+                <button [class.active]="selectedFilter === 'gal_b'" (click)="filterImages('gal_b')">BACKEND</button>
+                <button [class.active]="selectedFilter === 'gal_c'" (click)="filterImages('gal_c')">DATABASE</button>
+              </div>
             </div>
-        </div>
+          </div>
         
         <div class="gallery-list row">
             <div class="col-md-4 col-sm-6 gallery-grid" *ngFor="let card of languagesCard">

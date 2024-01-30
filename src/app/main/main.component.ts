@@ -27,7 +27,6 @@ export class MainComponent implements OnInit{
       id:5,icon:"fa fa-quote-right",title:"Week5 - More Angular",description:"Learned about more complex ideas such as pipelines, rxjs, nodejs, mongodb, json and services. For the final deliverable of the bootcamp finished the design and content of the website and started the conversion of javascript to angular.",photo:"../../uploads/angular.png",sub_title:"ANGULAR&Node.js ",githublink:"https://github.com/umutbarandemir/angular-onepage-fromzero",
     }
   ];
-
  
   projectsCard:ProjectsCard[]=[
     { 
@@ -61,6 +60,7 @@ export class MainComponent implements OnInit{
       id:4,icon:"fa-solid fa-laptop-code",title:"After College",location:"Remote , ",date:"FALL 2023",description:"After completing my internships and graduation i got an offer from TUBITAK BILGEM YTE BOOTCAMP 2023 to attend their online bootcamp that had subjects such as Java, Figma, Springboot. Completing these courses and doing some freelance jobs brought me to end of 2023.",description2:"To start the 2024, I have been taking an Angular Frontend Bootcamp via TechCareer.",buttonId:"afterCollegeBtn",pdfPath: "../../assets/tubitak.pdf",
     },
   ];
+
   viewPdf(pdfPath: string) {
     window.open(pdfPath, '_blank');
   }
